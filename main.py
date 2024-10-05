@@ -36,6 +36,21 @@ def text():
     return render_template(
                             'text.html', 
                            )
+@app.route('/8')
+def text1():
+    return render_template(
+                            'text3.html', 
+                           )
+@app.route('/9')
+def text1():
+    return render_template(
+                            'text4.html', 
+                           )
+@app.route('/10')
+def text1():
+    return render_template(
+                            'text5.html', 
+                           )
 @app.route('/5')
 def text1():
     return render_template(
