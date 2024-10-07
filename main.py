@@ -29,7 +29,7 @@ def lights2():
 @app.route('/3')
 def lights3():
     return render_template(
-                            'lights3.html', 
+                            'text6.html', 
                            )
 @app.route('/4')
 def text():
@@ -42,17 +42,17 @@ def text1():
                             'text3.html', 
                            )
 @app.route('/9')
-def text1():
+def text2():
     return render_template(
                             'text4.html', 
                            )
 @app.route('/10')
-def text1():
+def text3():
     return render_template(
                             'text5.html', 
                            )
 @app.route('/5')
-def text1():
+def text4():
     return render_template(
                             'text2.html', 
                            )
